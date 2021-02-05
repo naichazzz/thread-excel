@@ -1,0 +1,12 @@
+{
+    "captcha": "QMCV",
+    "user": {
+        "userName": "admin",
+        "password": "1qaz@WS"
+    },
+    "forgetPasswordUser": {
+        "userName": "forgetPasswordUser",
+        "password": "1qaz@WS"
+    },
+    "title": "商用车企业平台"
+}

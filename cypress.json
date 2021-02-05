@@ -1,0 +1,16 @@
+{
+    "baseUrl": "http://localhost:8080",
+    "defaultCommandTimeout": 4000,
+    "numTestsKeptInMemory": 50,
+    "reporter": "mochawesome",
+    "reporterOptions": {
+      "reportDir": "cypress/results",
+      "overwrite": false,
+      "html": false,
+      "json": true
+    },
+    "requestTimeout":6000,
+    "testFiles": "**/*.*",
+    "watchForFileChanges": true
+    
+}

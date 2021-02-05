@@ -1,0 +1,21 @@
+.el-dialog__header{
+      color: #fff;
+      text-align: left;
+      border-bottom: 1px solid #eee;
+    }
+  .el-dialog__title{
+    color: #888!important;
+  }
+  .el-transfer-panel{width: 40%!important;}
+  /* 隐藏全选框 */
+  .el-dialog .el-table th>.cell .el-checkbox:last-of-type{
+    display:none !important
+}
+.el-tabs__nav-scroll{background-color: #fff !important;border-bottom: 1px solid #eee;}
+.el-tabs--border-card{border: none !important;box-shadow:none !important;margin-top:-10px;}
+.el-tabs--border-card>.el-tabs__header .el-tabs__item.is-active{background-color: #edf1ff !important;color: #909399 !important; border: 1px solid #7a9dfc !important; border-bottom:none !important;border-top-left-radius:10px;
+  border-bottom-left-radius:0;
+  border-top-right-radius:10px;
+  border-bottom-right-radius:0;}
+.el-tabs--border-card>.el-tabs__header .el-tabs__item{background-color: #fff!important;margin-left: 0 !important;}
+.el-tabs--border-card>.el-tabs__header .el-tabs__item:first-child{margin-top: 0;}

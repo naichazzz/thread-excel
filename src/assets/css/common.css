@@ -1,0 +1,181 @@
+.inputBox{width: 100%;padding: 0 20px;overflow: hidden;}
+.input-suffix{display: flex; font-size: 14px;margin-right: 10px;float: left; margin-top: 15px;}
+.input-suffix .el-input{width: 140px;}
+.input-suffix span{line-height: 28px;}
+.buttonBox{display: flex;padding: 20px;}
+.pagination-box{float: right;margin: 15px 0;}
+
+body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  /*    background-color: #545c64; */
+  }
+  html{height: 100%;}
+  .el-transfer__buttons{padding: 0 10px !important;}
+.el-header,
+.el-footer {
+  background-color: #fff;
+  color: #666;
+  text-align: center;
+  line-height: 60px;
+  padding: 0;
+  background-image: none;
+  border-bottom:1px solid #D8D8D8
+}
+.el-menu {
+  background-color: inherit !important;
+}
+.el-aside {
+  color: #333;
+  text-align: center;
+  line-height: 200px;
+  background-position: left;
+  opacity: 0.8;
+  background-color: #ffffff;
+}
+
+.el-main{
+  background-color: #fff;
+  color: #333;
+  text-align: center;
+  padding: 0 !important;
+}
+.el-container {
+  display: -webkit-box !important;
+}
+body > .el-container {
+  margin-bottom: 40px;
+}
+
+.el-container:nth-child(5) .el-aside,
+.el-container:nth-child(6) .el-aside {
+  line-height: 260px;
+}
+
+.el-container:nth-child(7) .el-aside {
+  line-height: 320px;
+}
+h3 {
+  margin: 0;
+}
+.title {
+  width: 100%;
+  text-align: left;
+  color: #666;
+  font-size: 20px !important;
+  overflow: hidden;
+  margin-left: 15px;
+}
+.title >img{
+  width:28px;float:left;margin-top:20px;margin-right:10px;
+}
+.buttonC {
+  color: #666 !important;
+  font-size: 16px !important;
+  margin-top: 10px !important;
+  margin-left: 20px !important;
+}
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.tabNavi {
+  background-color: #ffffff !important;
+  line-height: 0;
+  text-align: left;
+  padding: 5px !important;
+  height: 47px !important;
+  width: 100%;
+  background-image: none;
+  display: flex;
+  border-bottom: none !important;
+}
+.el-submenu__title i {
+  color: #fff;
+}
+.floatL {
+  float: left;
+}
+.floatR {
+  float: right;
+}
+.hp {
+  height: 40px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.el-menu-item:hover {
+  color: #4977FC !important;
+  background: none !important;
+  border: none;
+}
+.el-submenu__title:hover,
+.el-submenu__title:hover i {
+  color: #4977FC;
+  border: none;
+}
+
+  .el-submenu__title:hover,.el-menu-item:hover{
+    border-left:none !important;
+    background:none;
+    color: #4977FC !important;
+}
+.el-submenu__title:hover{border-top-left-radius:50px;
+  border-bottom-left-radius:50px;
+  border-top-right-radius:0;
+  border-bottom-right-radius:0;
+  background: #ecf1ff;
+    color: #4977FC !important;
+  }
+.el-menu {
+  border-right: none !important;
+}
+.message {
+  font-size: 26px;
+  margin: 15px 5px 0px 15px;
+}
+.main-box{width: 100%;border: 15px solid #f0f2f5;overflow-y: auto;overflow-x: hidden;box-sizing: border-box;}
+.el-menu-item.is-active{color:#4977FC !important;background: none !important;}
+/* .el-menu-item.is-active:hover{
+  color: #fff !important;
+} */
+.el-form .el-select{width: 100%;}
+.el-form .el-date-editor .el-input{width: 100%;}
+.el-scrollbar__wrap {
+  overflow-x: hidden !important;
+}
+.el-select-dropdown .el-scrollbar .el-scrollbar__wrap
+{
+overflow: scroll!important;
+}
+.el-autocomplete-suggestion__list{
+  overflow: auto!important;
+}
+.titleLine{width: 100%;text-align: left; padding: 20px 0;}
+.titleLine .el-divider--vertical{width: 5px; background-color: #4977FC !important; height: 17px;margin-top: -2px;}
+.titleLine span{font-weight: bold;}
+.fengeLine{height: 15px;width: 100%;background-color:#f0f2f5;margin-top:5px;}
+.pageMain{padding: 0 20px;}
+.el-table__row--striped{background-color: #f6f9ff !important;}
+.collapseIcon{font-size: 30px; padding-top: 6px;color: #888; position: absolute;top: 0; z-index: 999;}
+.el-menu--vertical{background-color: #ecf1ff !important;}
+.el-dropdown-link {
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 10px;
+}
+.el-pagination .el-select .el-input{width: 100px !important;}
+/* //滚动条的宽度 */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+/* //滚动条的滑块 */
+::-webkit-scrollbar-thumb {
+  background-color: #e4e5e6;
+  border-radius: 3px;
+}
+/* .main-box{overflow: hidden;}
+.main-box:hover{overflow-y: auto;} */

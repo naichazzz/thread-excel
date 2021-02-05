@@ -1,0 +1,128 @@
+{
+    "login": {
+        "root": "/login",
+        "captchaImage": "/api/business-admin/system/captchaImage",
+        "login": "/api/business-admin/system/login",
+        "getInfo": "/api/business-admin/user/getInfo"
+    },
+    "simcard": {
+        "root": "/SIMCard",
+        "add": "/business-admin/sim/add",
+        "delete": "/business-admin/sim/delete",
+        "modify": "",
+        "search": "/business-admin/sim/listAll",
+        "export":"/api/business-admin/sim/exportSIMList"
+    },
+    "terminalType": {
+        "root": "/terminalType",
+        "add": "",
+        "delete": "",
+        "modify": "",
+        "search": ""
+    },
+    "driverManage": {
+        "root": "/driverManage",
+        "add": "",
+        "delete": "",
+        "modify": "",
+        "search": ""
+    },
+    "watchMap": {
+        "root": "/watchMap",
+        "add": "",
+        "delete": "",
+        "modify": "",
+        "search": ""
+    },
+    "carDispatch": {
+        "root": "/carDispatch",
+        "add": "",
+        "delete": "",
+        "modify": "",
+        "search": ""
+    },
+    "playback": {
+        "root": "/playback",
+        "add": "",
+        "delete": "",
+        "modify": "",
+        "search": ""
+    },
+    "overspeed": {
+        "root": "/overspeed",
+        "add": "",
+        "delete": "",
+        "modify": "",
+        "search": ""
+    },
+    "callForwarding": {
+        "root": "/terminalSetting/callForwarding",
+        "add": "",
+        "delete": "",
+        "modify": "",
+        "search": ""
+    },
+    "tachograph": {
+        "root": "/tachograph",
+        "add": "",
+        "delete": "",
+        "modify": "",
+        "search": ""
+    },
+    "tachographSetting": {
+        "root": "/tachographSetting",
+        "add": "",
+        "delete": "",
+        "modify": "",
+        "search": ""
+    },
+    "setting": {
+        "root": "/setting",
+        "add": "",
+        "delete": "",
+        "modify": "",
+        "search": ""
+    },
+    "electronicFence": {
+        "root": "/electronicFence",
+        "add": "",
+        "delete": "",
+        "modify": "",
+        "search": ""
+    },
+    "userManage": {
+        "root": "/userManage",
+        "add": "",
+        "delete": "",
+        "modify": "",
+        "search": ""
+    },
+    "roleManage": {
+        "root": "/roleManage",
+        "add": "",
+        "delete": "",
+        "modify": "",
+        "search": ""
+    },
+    "groupManage": {
+        "root": "/groupManage",
+        "add": "",
+        "delete": "",
+        "modify": "",
+        "search": "/business-admin/group/list"
+    },
+    "funcManage": {
+        "root": "/funcManage",
+        "add": "",
+        "delete": "",
+        "modify": "",
+        "search": ""
+    },
+    "dict": {
+        "root": "/dict",
+        "add": "",
+        "delete": "",
+        "modify": "",
+        "search": ""
+    }
+}
