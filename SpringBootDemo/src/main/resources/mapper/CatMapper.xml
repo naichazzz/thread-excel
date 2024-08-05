@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hantao.mapper.CatMapper">
+    <!--查询关于我设置-->
+    <select id="getList"  parameterType="int" resultType="com.hantao.vo.Cat">
+        select name,price,A,B,C,catId from cat
+        <if test="idmin != null and idmax != null">
+        where catId  between #{idmin} and #{idmax}
+        </if>
+    </select>
+
+    <insert id="addCat">
+        insert into cat(price,a,b,c,name) values (#{price},#{A},#{B},#{C},#{name})
+    </insert>
+
+
+</mapper>
